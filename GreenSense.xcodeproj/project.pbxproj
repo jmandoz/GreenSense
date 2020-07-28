@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43C125B24C5194500AFF33A /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C125A24C5194500AFF33A /* DataViewModel.swift */; };
+		A48ABB5824CF9B6800100A52 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48ABB5724CF9B6800100A52 /* RingView.swift */; };
+		A4D1569924C3B508004436AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D1569824C3B508004436AD /* Default-568h@2x.png */; };
+		A4D5FF2924C3B673001A89DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4D5FF2824C3B673001A89DE /* GoogleService-Info.plist */; };
+		A4D5FF2B24C3BA9F001A89DE /* EnvironmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5FF2A24C3BA9F001A89DE /* EnvironmentData.swift */; };
 		A4E7487A24C3AF5300DB7A41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E7487924C3AF5300DB7A41 /* AppDelegate.swift */; };
 		A4E7487C24C3AF5300DB7A41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E7487B24C3AF5300DB7A41 /* SceneDelegate.swift */; };
-		A4E7487E24C3AF5300DB7A41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E7487D24C3AF5300DB7A41 /* ContentView.swift */; };
+		A4E7487E24C3AF5300DB7A41 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E7487D24C3AF5300DB7A41 /* HomeView.swift */; };
 		A4E7488024C3AF5700DB7A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E7487F24C3AF5700DB7A41 /* Assets.xcassets */; };
 		A4E7488324C3AF5700DB7A41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E7488224C3AF5700DB7A41 /* Preview Assets.xcassets */; };
 		A4E7488624C3AF5700DB7A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E7488424C3AF5700DB7A41 /* LaunchScreen.storyboard */; };
+		B2163033CAE1B80A0B6981F3 /* Pods_GreenSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9161455B3D5AADF7884CB260 /* Pods_GreenSense.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3892461E985BFABACDF5AD8D /* Pods-GreenSense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenSense.release.xcconfig"; path = "Target Support Files/Pods-GreenSense/Pods-GreenSense.release.xcconfig"; sourceTree = "<group>"; };
+		9161455B3D5AADF7884CB260 /* Pods_GreenSense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenSense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43C125A24C5194500AFF33A /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		A48ABB5724CF9B6800100A52 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		A4D1569824C3B508004436AD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A4D5FF2824C3B673001A89DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "GreenSense/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A4D5FF2A24C3BA9F001A89DE /* EnvironmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentData.swift; sourceTree = "<group>"; };
 		A4E7487624C3AF5300DB7A41 /* GreenSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E7487924C3AF5300DB7A41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4E7487B24C3AF5300DB7A41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4E7487D24C3AF5300DB7A41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4E7487D24C3AF5300DB7A41 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A4E7487F24C3AF5700DB7A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4E7488224C3AF5700DB7A41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4E7488524C3AF5700DB7A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4E7488724C3AF5700DB7A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7198DF265637641699CA0CE /* Pods-GreenSense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenSense.debug.xcconfig"; path = "Target Support Files/Pods-GreenSense/Pods-GreenSense.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2163033CAE1B80A0B6981F3 /* Pods_GreenSense.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4B4F23624CBB03E00FE3DDA /* Extensions+Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Extensions+Helpers";
+			sourceTree = "<group>";
+		};
+		A4D1569724C3B3ED004436AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4E7487924C3AF5300DB7A41 /* AppDelegate.swift */,
+				A4E7487B24C3AF5300DB7A41 /* SceneDelegate.swift */,
+				A4E7487F24C3AF5700DB7A41 /* Assets.xcassets */,
+				A4E7488424C3AF5700DB7A41 /* LaunchScreen.storyboard */,
+				A4E7488724C3AF5700DB7A41 /* Info.plist */,
+				A4D5FF2824C3B673001A89DE /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A4E7486D24C3AF5300DB7A41 = {
 			isa = PBXGroup;
 			children = (
 				A4E7487824C3AF5300DB7A41 /* GreenSense */,
 				A4E7487724C3AF5300DB7A41 /* Products */,
+				EB2C5E58027AC44273CCE078 /* Pods */,
+				AC4B96E49ADAA64E15F5E933 /* Frameworks */,
+				A4D1569824C3B508004436AD /* Default-568h@2x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +94,12 @@
 		A4E7487824C3AF5300DB7A41 /* GreenSense */ = {
 			isa = PBXGroup;
 			children = (
-				A4E7487924C3AF5300DB7A41 /* AppDelegate.swift */,
-				A4E7487B24C3AF5300DB7A41 /* SceneDelegate.swift */,
-				A4E7487D24C3AF5300DB7A41 /* ContentView.swift */,
-				A4E7487F24C3AF5700DB7A41 /* Assets.xcassets */,
-				A4E7488424C3AF5700DB7A41 /* LaunchScreen.storyboard */,
-				A4E7488724C3AF5700DB7A41 /* Info.plist */,
+				A4B4F23624CBB03E00FE3DDA /* Extensions+Helpers */,
+				A4E7488D24C3AFC800DB7A41 /* Model */,
+				A4E7488E24C3AFD100DB7A41 /* View */,
+				A4E7489024C3AFDE00DB7A41 /* ViewModel */,
 				A4E7488124C3AF5700DB7A41 /* Preview Content */,
+				A4D1569724C3B3ED004436AD /* Resources */,
 			);
 			path = GreenSense;
 			sourceTree = "<group>";
@@ -75,6 +112,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A4E7488D24C3AFC800DB7A41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4D5FF2A24C3BA9F001A89DE /* EnvironmentData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4E7488E24C3AFD100DB7A41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4E7487D24C3AF5300DB7A41 /* HomeView.swift */,
+				A48ABB5724CF9B6800100A52 /* RingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4E7489024C3AFDE00DB7A41 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A43C125A24C5194500AFF33A /* DataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC4B96E49ADAA64E15F5E933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9161455B3D5AADF7884CB260 /* Pods_GreenSense.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB2C5E58027AC44273CCE078 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7198DF265637641699CA0CE /* Pods-GreenSense.debug.xcconfig */,
+				3892461E985BFABACDF5AD8D /* Pods-GreenSense.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4E7488A24C3AF5700DB7A41 /* Build configuration list for PBXNativeTarget "GreenSense" */;
 			buildPhases = (
+				B4612F491A77ED1D80DA3985 /* [CP] Check Pods Manifest.lock */,
 				A4E7487224C3AF5300DB7A41 /* Sources */,
 				A4E7487324C3AF5300DB7A41 /* Frameworks */,
 				A4E7487424C3AF5300DB7A41 /* Resources */,
+				5D1C3F25BF6DB1C99B90FBD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E7488624C3AF5700DB7A41 /* LaunchScreen.storyboard in Resources */,
+				A4D1569924C3B508004436AD /* Default-568h@2x.png in Resources */,
+				A4D5FF2924C3B673001A89DE /* GoogleService-Info.plist in Resources */,
 				A4E7488324C3AF5700DB7A41 /* Preview Assets.xcassets in Resources */,
 				A4E7488024C3AF5700DB7A41 /* Assets.xcassets in Resources */,
 			);
@@ -141,14 +224,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D1C3F25BF6DB1C99B90FBD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenSense/Pods-GreenSense-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenSense/Pods-GreenSense-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenSense/Pods-GreenSense-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4612F491A77ED1D80DA3985 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreenSense-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4E7487224C3AF5300DB7A41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48ABB5824CF9B6800100A52 /* RingView.swift in Sources */,
 				A4E7487A24C3AF5300DB7A41 /* AppDelegate.swift in Sources */,
 				A4E7487C24C3AF5300DB7A41 /* SceneDelegate.swift in Sources */,
-				A4E7487E24C3AF5300DB7A41 /* ContentView.swift in Sources */,
+				A4E7487E24C3AF5300DB7A41 /* HomeView.swift in Sources */,
+				A4D5FF2B24C3BA9F001A89DE /* EnvironmentData.swift in Sources */,
+				A43C125B24C5194500AFF33A /* DataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,13 +410,14 @@
 		};
 		A4E7488B24C3AF5700DB7A41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7198DF265637641699CA0CE /* Pods-GreenSense.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GreenSense/Preview Content\"";
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = GreenSense/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GreenSense/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,13 +431,14 @@
 		};
 		A4E7488C24C3AF5700DB7A41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3892461E985BFABACDF5AD8D /* Pods-GreenSense.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GreenSense/Preview Content\"";
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = GreenSense/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GreenSense/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
