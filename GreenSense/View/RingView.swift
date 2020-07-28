@@ -10,29 +10,22 @@ import SwiftUI
 
 struct RingView: View {
     
-    @ObservedObject var viewModel: DataViewMoedel
-    
-    var colors: [Color] = [Color.blue, Color.red]
-    
+    var colors: [Color] = []
     var strokeColor: Color
-    
     var endAngle: Int
-    
     var body: some View {
         
         ZStack {
-            Circle()
-                .stroke(strokeColor, lineWidth: 20)
             Circle()
                 .stroke(
                     AngularGradient(
                         gradient: Gradient(colors: colors),
                         center: .center,
-                        startAngle: .degrees(0),
-                        endAngle: .degrees(Double(endAngle)/100 * 360)
+                        startAngle: .degrees((Double(endAngle)/100 * 360)-100),
+                        endAngle: .degrees((Double(endAngle)/100 * 360)+100)
                     ),
                     style: StrokeStyle(lineWidth: 20, lineCap: .round)
             )
-        }.frame(idealWidth: 150, idealHeight: 150, alignment: .center)
+        }.frame(idealWidth: 300, idealHeight: 300, alignment: .center)
     }
 }
