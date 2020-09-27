@@ -39,7 +39,7 @@ class DataViewMoedel: ObservableObject {
                 tempChange = .decrease
             }
             
-            self.data = EnvironmentData(dateAndTime: dateTime, temperature: temp, humidity: humid, resevoirVolume: 0, humidChange: humidChange, tempChange: tempChange)
+            self.data = EnvironmentData(dateAndTime: dateTime, temperature: temp, humidity: humid - 3, resevoirVolume: 0, humidChange: humidChange, tempChange: tempChange)
         })
     }
 }

@@ -11,6 +11,9 @@ import SwiftUI
 struct HomeView: View {
     
     @ObservedObject private var viewModel = DataViewMoedel()
+    
+    @State private var animationAmmount: CGFloat = 1
+    
     private var tempChange: Color {
         switch viewModel.data?.tempChange {
         case .increase:
@@ -23,7 +26,7 @@ struct HomeView: View {
             return Color.white
         }
     }
-        
+    
     private var tempIndicator: Color {
         guard let viewModel = viewModel.data?.temperature else {return Color.gray}
         switch viewModel {
@@ -32,6 +35,20 @@ struct HomeView: View {
         case 54...83:
             return Color.green
         case 84...150:
+            return Color.red
+        default:
+            return Color.pink
+        }
+    }
+    
+    private var humidIndicator: Color {
+        guard let viewModel = viewModel.data?.humidity else {return Color.gray}
+        switch viewModel {
+        case 0...39:
+            return Color.blue
+        case 40...55:
+            return Color.green
+        case 60...100:
             return Color.red
         default:
             return Color.pink
@@ -55,22 +72,43 @@ struct HomeView: View {
                 ZStack {
                     VStack {
                         Text("Temperature")
-                        Text("\(viewModel.data?.temperature ?? 0)")
-                            .font(.largeTitle)
+                        HStack {
+                            Text("\(viewModel.data?.temperature ?? 0)")
+                                .font(.largeTitle)
+                            Text("ºF")
+                                .font(.footnote)
+                            
+                        }
                     }
                     RingView(colors: [Color.clear, tempIndicator, Color.clear], strokeColor: tempChange,
                              endAngle: viewModel.data?.temperature ?? 0 )
                         .frame(width: 150, height: 150, alignment: .center)
+                        .scaleEffect(animationAmmount)
+                        .animation(Animation.easeInOut(duration: 1))
+                        .rotation3DEffect(Angle(degrees: 300), axis: (x: 7, y: 0, z: -5))
                 }
-                
+                    
                 .padding(10)
                 Spacer()
-                VStack {
-                    Text("Humidity")
-                    Text("\(viewModel.data?.humidity ?? 0)")
-                        .font(.largeTitle)
+                ZStack {
                     
+                    VStack {
+                        Text("Humidity")
+                        HStack {
+                            Text("\(viewModel.data?.humidity ?? 0)" )
+                                .font(.largeTitle)
+                            Text("%RH")
+                                .font(.footnote)
+                        }
+                        
+                    }
+                    RingView(colors: [Color.clear, humidIndicator, Color.clear], strokeColor: tempChange,
+                             endAngle: viewModel.data?.humidity ?? 0 )
+                        .frame(width: 150, height: 150, alignment: .center)
+                        .animation(Animation.easeInOut(duration: 0.5))
+                        .rotation3DEffect(Angle(degrees: 300), axis: (x: 7, y: 0, z: -5))
                 }
+                    
                 .padding(20)
                 Spacer()
             }

@@ -21,8 +21,8 @@ struct RingView: View {
                     AngularGradient(
                         gradient: Gradient(colors: colors),
                         center: .center,
-                        startAngle: .degrees((Double(endAngle)/100 * 360)-100),
-                        endAngle: .degrees((Double(endAngle)/100 * 360)+100)
+                        startAngle: .degrees((Double(endAngle)/100 * 360)-150),
+                        endAngle: .degrees((Double(endAngle)/100 * 360)+200)
                     ),
                     style: StrokeStyle(lineWidth: 20, lineCap: .round)
             )
